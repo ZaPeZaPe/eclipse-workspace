@@ -1,0 +1,26 @@
+package questao.um;
+
+import java.util.Scanner;
+
+public class QuestaoUm {
+	
+	public static void main(String[] args) {
+		
+		int anos=0, meses=0, dias=0;
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Digite quantos anos viveu desde seu nascimento");
+		anos = teclado.nextInt();
+		
+		System.out.println("Digite quantos meses faz desde o seu ultimo aniversário não contando com o mês atual");
+		meses = teclado.nextInt();
+		
+		System.out.printf("Digite a quantidade de dias que já se passou nesse mês \n(se fez aniversário nesse mês digite a quantidade de dias que se passou desde seu aniversário)");
+		dias = teclado.nextInt();
+		
+		dias += ((anos*365)+(meses*30));
+		
+		System.out.println("Você já viveu por "+dias+" dias!");
+	}
+	
+}

@@ -1,0 +1,11 @@
+package teste;
+
+public class teste {
+
+	public static void main(String[] args) {
+		int num = 0001;
+		String formatted = String.format("%04d", num);
+		System.out.println(formatted);
+	}
+
+}

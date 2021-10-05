@@ -1,0 +1,19 @@
+package teste;
+
+import java.util.*;
+
+public class teste {
+
+	public static void main(String[] args) {
+
+		conta[] contas = new conta[12];
+		
+		contas[1].setNome("Isaac");
+		
+		contas[2].setNome("Jorge");
+		
+		contas[1].getNome();
+		contas[2].getNome();
+	}
+
+}

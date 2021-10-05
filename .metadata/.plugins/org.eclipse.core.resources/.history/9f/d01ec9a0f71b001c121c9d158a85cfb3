@@ -1,0 +1,10 @@
+package questao.quatro;
+
+public class QuestaoQuatro {
+	
+	public static void main(String[] args) {
+		System.out.println("Digite os seguintes dados de 12 jogadores de basquete:");
+		System.out.print("Nome: ");
+		
+	}
+}

@@ -1,0 +1,19 @@
+package questao.cinco;
+
+public class Conta {
+	
+	
+	private float saldo=0;
+	
+	public void getSaldo(){
+		System.out.println("Seu saldo atual é de R$ " + saldo);
+	}
+	
+	public void sacar(float valor) {
+		this.saldo = saldo - valor;
+	}
+	
+	public void depositar(float valor) {
+		this.saldo = saldo + valor;
+	}
+}

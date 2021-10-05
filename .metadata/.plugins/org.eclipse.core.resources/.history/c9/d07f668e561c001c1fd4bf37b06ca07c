@@ -1,0 +1,12 @@
+package teste;
+
+public class conta {
+	public String nConta;
+	public String nome;
+
+	conta(int val, String pessoa) {
+		String str = String.format("%04d", val);
+		this.nConta = str;
+		this.nome = pessoa;
+	}
+}
