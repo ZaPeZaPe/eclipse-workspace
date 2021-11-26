@@ -4,6 +4,7 @@ import java.util.*;
 public class Questao02 {
 	
 	public static void main(String[] args) {
+		
 		double v1, v2, res;
 		Scanner teclado = new Scanner(System.in);
 		

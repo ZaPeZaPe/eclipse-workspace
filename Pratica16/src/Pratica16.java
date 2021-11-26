@@ -2,6 +2,7 @@ import java.util.*;
 public class Pratica16 {
 
 	public static void main(String[] args) {
+		
 		Scanner teclado = new Scanner(System.in);
 		int pontos;
 		char op, op1;
@@ -15,6 +16,7 @@ public class Pratica16 {
 		case 'c':
 		case 'd': System.out.println("Alternativa Errada"); pontos=0; break;
 		default: System.out.println("Alternativa inválida");
+		
 		}
 	}
 }
