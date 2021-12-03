@@ -5,7 +5,7 @@ public class Problema {
 	public static void main(String[] args) {
 		//daVelha();
 		//------------
-		//jogoDaForca();
+		jogoDaForca();
 	}
 	
 	public static void daVelha() {
@@ -95,13 +95,13 @@ public class Problema {
         while (palavraString > 0 && tentativa > 0) {
         	enforcado(6-tentativa);
             for (int i = 0; i < palavraSelecionada.length(); i++) {
-            	imprimir(" " + traco[i] + "  ");
+                System.out.print(" " + traco[i] + "  ");
             }
-            imprimir("");
+            System.out.println("");
 
-            imprimir("Você tem  " + tentativa + "  chances de adivinhar");
-            imprimir("A palavra tem " + palavraString + " letras restantes");
-            imprimir("Digite uma letra: ");
+            System.out.println("Você tem  " + tentativa + "  chances de adivinhar");
+            System.out.println("A palavra tem " + palavraString + " letras restantes");
+            System.out.println("Digite uma letra: ");
             
             char letra = teclado.next().charAt(0);
             char letras = Character.toLowerCase(letra);
@@ -122,13 +122,12 @@ public class Problema {
         }
 
         if (palavraString == 0) {
-        	imprimir(" PARABENS! Você Acertou a palavra! ");
+            System.out.println(" PARABENS! Você Acertou a palavra! ");
         } else {
         	enforcado(6);
-            imprimir("Infelizmente Você Errou ");
-            imprimir("A palavra era " + palavraSelecionada);
+            System.out.println("Infelizmente Você Errou ");
+            System.out.println("A palavra era " + palavraSelecionada);
         }
-        
 	}
 	
 	public static void enforcado(int num) {
