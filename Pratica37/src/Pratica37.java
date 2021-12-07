@@ -8,8 +8,8 @@ public class Pratica37 {
 	
 	public static String[][] fibonacci() {
 		String[][] vet = new String[5][8];
-		int[][] vet2 = new int[5][8];
 		
+		int[][] vet2 = new int[5][8];
 		vet2[0][0] = 0;
 		vet2[0][1] = 1;
 		
