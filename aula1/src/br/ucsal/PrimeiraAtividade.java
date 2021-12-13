@@ -50,14 +50,12 @@ public class PrimeiraAtividade {
 
     public static int daVelha() {
         char[][] seq = new char[3][3];
-        char[][] seqBackup = new char[3][3];
         int valor = 0;
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 seq[i][j] = '-';
             }
         }
-        seqBackup = seq; //um backup pra receber a tabela zerada;
 
         while ((Vencedor1(seq)==false) && (Vencedor2(seq)==false)) {
         	
