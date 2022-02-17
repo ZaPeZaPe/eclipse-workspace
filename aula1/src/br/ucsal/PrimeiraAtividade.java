@@ -18,6 +18,7 @@ public class PrimeiraAtividade {
 		nomeUsuario2 = sc.nextLine();
 
 		while(x!=1) {
+
 			imprimir2("\n%s, escolha o seu jogo: \n[1] Jogo da velha \n[2] Jogo da forca\n ", nomeUsuario1);
 			escolhaDoUsuario = sc.nextInt();
 			imprimir("");
@@ -44,6 +45,7 @@ public class PrimeiraAtividade {
 			case 2:	
 			default: imprimir("\nPontuação final:\n"+nomeUsuario1+": "+pontosJ1+"\n"+nomeUsuario2+": "+pontosJ2); x=1;
 			}
+
 		}
 
 
